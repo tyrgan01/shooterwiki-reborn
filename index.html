@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Шутери як ігровий жанр</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Roboto, Arial, sans-serif;
+            margin: 0;
+            background: #333333;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #99541bff;
+        }
+
+        a {
+            color: #c2890d;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            gap: 20px;
+        }
+
+        main {
+            flex: 3;
+            background: #252525;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+
+        aside {
+            flex: 1;
+            background: #252525;
+            padding: 20px;
+            border-radius: 10px;
+            height: fit-content;
+        }
+
+        img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(255,255,255,0.1);
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav li {
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            display: block;
+            padding: 8px 12px;
+            background: #1b1b1b;
+            border-radius: 6px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #cf530b;
+            color: #fff;
+        }
+
+        nav a:active {
+            background: #703f06;
+            transform: scale(0.96);
+        }
+
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            padding: 15px;
+            background: #2c2c2c;
+            border-radius: 10px;
+            font-size: 0.9em;
+        }
+
+        @media (max-width: 900px) {
+            .container {
+                flex-direction: column;
+            }
+
+            aside {
+                order: -1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="flex-grow: 1;"></div>
+
+        <main>
+            <h1>Шутер</h1>
+            <img src="https://s.cq.ru/img/f/e/2023/11/08/27.jpg" alt="CS:GO як представник шутерів">
+            <p><b>CS:GO як представник шутерів</b></p>
+            <p>Шу́тер — жанр відеоігор, піджанр action, основу ігрового процесу якого складає стрілянина по цілях. Часто завданням гравця є знищення усіх цілей на рівні, або/та набір найбільшої кількості очок, а не проходження сюжету.</p>
+            <h2>Історія виникнення</h2>
+            <p>Пращури шутерів з'являлись з 1985 року: «Eidolon» (1985), «Hovertank 3D» (1991), «Catacomb 3-D» (1991). Але справжнім проривом стала гра «Wolfenstein 3D» від «id Software», через статус shareware. Безкоштовна версія гри містила лише один епізод («Escape from Wolfenstein»), що складався з 10 рівнів. Комерційний випуск гри мав три епізоди, а також набір додаткових епізодів «The Nocturnal Missions». Таким чином, загальна кількість рівнів Wolfenstein 3D становила 60. Гра була випущена на PC і потім портована на інші платформи. Вихідний код був опублікований id Software у 1995 році, що започаткувало традицію відкривати рушії старих ігор після виходу нових проектів.</p>
+
+            <footer>
+                <a href="https://uk.wikipedia.org/wiki/%D0%A8%D1%83%D1%82%D0%B5%D1%80">Джерело інформації</a>
+            </footer>
+        </main>
+
+        <aside>
+            <h3>Жанри</h3>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Шутери</a></li>
+                    <li><a href="class.html">Класовий шутер</a></li>
+                    <li><a href="battle royale.html">Королівська битва</a></li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
+</body>
+</html>
